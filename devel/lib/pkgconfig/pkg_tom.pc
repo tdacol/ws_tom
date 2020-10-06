@@ -1,0 +1,8 @@
+prefix=/home/nearlab/ws_tom/devel
+
+Name: pkg_tom
+Description: Description of pkg_tom
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

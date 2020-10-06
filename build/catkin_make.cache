@@ -1,0 +1,2 @@
+pkg_tom
+-DCATKIN_DEVEL_PREFIX=/home/nearlab/ws_tom/devel -DCMAKE_INSTALL_PREFIX=/home/nearlab/ws_tom/install -G Unix Makefiles
