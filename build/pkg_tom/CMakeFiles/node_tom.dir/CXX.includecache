@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/home/nearlab/ws_tom/src/pkg_tom/src/bicoag.h
+iostream
+-
+ros/ros.h
+/home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
+sensor_msgs/Joy.h
+/home/nearlab/ws_tom/src/pkg_tom/src/sensor_msgs/Joy.h
+
 /home/nearlab/ws_tom/src/pkg_tom/src/node_tom.cpp
 iostream
 -
@@ -13,6 +21,8 @@ ros/ros.h
 /home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
 sensor_msgs/Joy.h
 /home/nearlab/ws_tom/src/pkg_tom/src/sensor_msgs/Joy.h
+bicoag.h
+/home/nearlab/ws_tom/src/pkg_tom/src/bicoag.h
 
 /opt/ros/melodic/include/ros/advertise_options.h
 ros/forwards.h
