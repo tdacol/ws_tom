@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/prova.dir/src/bicoag.cpp.o  -o /home/nearlab/ws_tom/devel/lib/pkg_tom/prova 

@@ -10,6 +10,7 @@ class bicoag
 {
 private:
 
+    int data=0;
     bool new_data=false;
 
     ros::NodeHandle nh;
@@ -17,21 +18,11 @@ private:
 
 public:
 
-    int data=0;
+    bicoag();
 
-    bicoag()
-    {
-        sub = nh.subscribe("/dvrk/footpedals/bicoag", 1000, &bicoag::bicoagCallBack, this); // Metodo 3
-        std::cout << "constructor called" << std::endl;
-    }
+    void bicoagCallBack(const sensor_msgs::JoyConstPtr&);
 
-    void bicoagCallBack(const sensor_msgs::JoyConstPtr& msg)
-    {
-        data=msg->buttons[0];
-        new_data=true;
-        ROS_INFO("I heard: [%d]", data);
-    }
-
+    int getBicoagData();
 };
 
 #endif // BICOAG_H

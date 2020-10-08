@@ -454,7 +454,7 @@ pkg_tom/preinstall:
 pkg_tom/CMakeFiles/node_tom.dir/all:
 	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/depend
 	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=12,13 "Built target node_tom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=12,13,14 "Built target node_tom"
 .PHONY : pkg_tom/CMakeFiles/node_tom.dir/all
 
 # Include target in all.
@@ -464,7 +464,7 @@ all: pkg_tom/CMakeFiles/node_tom.dir/all
 
 # Build rule for subdir invocation for target.
 pkg_tom/CMakeFiles/node_tom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/nearlab/ws_tom/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/nearlab/ws_tom/build/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 pkg_tom/CMakeFiles/node_tom.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/nearlab/ws_tom/build/CMakeFiles 0
 .PHONY : pkg_tom/CMakeFiles/node_tom.dir/rule

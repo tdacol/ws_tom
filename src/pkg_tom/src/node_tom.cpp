@@ -15,7 +15,7 @@ int main(int argc, char **argv)
 
     while(ros::ok())
     {
-        std::cout << bicoag_obj.data << std::endl;
+        std::cout << bicoag_obj.getBicoagData() << std::endl;
         loop_rate.sleep();
         ros::spinOnce();
     }

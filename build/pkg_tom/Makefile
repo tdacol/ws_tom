@@ -557,6 +557,33 @@ std_msgs_generate_messages_py/fast:
 	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/std_msgs_generate_messages_py.dir/build.make pkg_tom/CMakeFiles/std_msgs_generate_messages_py.dir/build
 .PHONY : std_msgs_generate_messages_py/fast
 
+src/bicoag.o: src/bicoag.cpp.o
+
+.PHONY : src/bicoag.o
+
+# target to build an object file
+src/bicoag.cpp.o:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o
+.PHONY : src/bicoag.cpp.o
+
+src/bicoag.i: src/bicoag.cpp.i
+
+.PHONY : src/bicoag.i
+
+# target to preprocess a source file
+src/bicoag.cpp.i:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.i
+.PHONY : src/bicoag.cpp.i
+
+src/bicoag.s: src/bicoag.cpp.s
+
+.PHONY : src/bicoag.s
+
+# target to generate assembly for a file
+src/bicoag.cpp.s:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.s
+.PHONY : src/bicoag.cpp.s
+
 src/node_tom.o: src/node_tom.cpp.o
 
 .PHONY : src/node_tom.o
@@ -623,6 +650,9 @@ help:
 	@echo "... std_msgs_generate_messages_nodejs"
 	@echo "... roscpp_generate_messages_nodejs"
 	@echo "... std_msgs_generate_messages_py"
+	@echo "... src/bicoag.o"
+	@echo "... src/bicoag.i"
+	@echo "... src/bicoag.s"
 	@echo "... src/node_tom.o"
 	@echo "... src/node_tom.i"
 	@echo "... src/node_tom.s"

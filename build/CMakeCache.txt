@@ -284,6 +284,9 @@ _gtest_INCLUDES:FILEPATH=/usr/include/gtest/gtest.h
 //Path to a file.
 _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 
+//Dependencies for the target
+bicoag_LIB_DEPENDS:STATIC=general;src/bicoag.cpp;general;src/bicoag.h;
+
 //The directory containing a CMake configuration file for catkin.
 catkin_DIR:PATH=/opt/ros/melodic/share/catkin/cmake
 
@@ -351,8 +354,14 @@ message_runtime_DIR:PATH=/opt/ros/melodic/share/message_runtime/cmake
 //Value Computed by CMake
 pkg_tom_BINARY_DIR:STATIC=/home/nearlab/ws_tom/build/pkg_tom
 
+//Dependencies for target
+pkg_tom_LIB_DEPENDS:STATIC=
+
 //Value Computed by CMake
 pkg_tom_SOURCE_DIR:STATIC=/home/nearlab/ws_tom/src/pkg_tom
+
+//Dependencies for target
+prova_LIB_DEPENDS:STATIC=
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/melodic/share/rosconsole/cmake
