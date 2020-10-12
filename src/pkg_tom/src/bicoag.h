@@ -13,16 +13,17 @@ private:
     int data=0;
     bool new_data=false;
 
-    ros::NodeHandle nh;
     ros::Subscriber sub;
 
 public:
 
-    bicoag();
+    bicoag(ros::NodeHandle*);
 
-    void bicoagCallBack(const sensor_msgs::JoyConstPtr&);
+    void callBack(const sensor_msgs::JoyConstPtr&);
 
     int getBicoagData();
+    bool getBicoagNewData();
+    void setBicoagNewDataToFalse();
 };
 
 #endif // BICOAG_H

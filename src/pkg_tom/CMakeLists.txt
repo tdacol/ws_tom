@@ -9,7 +9,10 @@ project(pkg_tom)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
   roscpp
+  std_msgs
   sensor_msgs
+  geometry_msgs
+  tf_conversions
 )
 
 ## System dependencies are found with CMake's conventions
@@ -137,6 +140,7 @@ include_directories(
 set(SOURCE_CODE
     src/node_tom.cpp
     src/bicoag.cpp
+    src/mtml.cpp
 )
 
 add_executable(node_tom ${SOURCE_CODE})
