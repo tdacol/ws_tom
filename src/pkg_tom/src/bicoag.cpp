@@ -2,15 +2,18 @@
 
 bicoag::bicoag(ros::NodeHandle* nh)
 {
-    sub = nh->subscribe("/dvrk/footpedals/bicoag", 1000, &bicoag::callBack, this); // Metodo 3
-//    std::cout << "constructor called" << std::endl;
+    sub = nh->subscribe("/dvrk/footpedals/bicoag", 1000, &bicoag::callBack, this); 
 }
 
 void bicoag::callBack(const sensor_msgs::JoyConstPtr& msg)
 {
     bicoag::data=msg->buttons[0];
     bicoag::new_data=true;
-    ROS_INFO("bicoag: [%d]", bicoag::data);
+    if(bicoag::data)
+        ROS_INFO("bicoag pressed");
+    else
+        ROS_INFO("bicoag released");
+    
 }
 
 int bicoag::getBicoagData()

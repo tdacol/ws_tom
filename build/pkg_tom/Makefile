@@ -857,6 +857,33 @@ actionlib_generate_messages_py/fast:
 	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/actionlib_generate_messages_py.dir/build.make pkg_tom/CMakeFiles/actionlib_generate_messages_py.dir/build
 .PHONY : actionlib_generate_messages_py/fast
 
+src/arm.o: src/arm.cpp.o
+
+.PHONY : src/arm.o
+
+# target to build an object file
+src/arm.cpp.o:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o
+.PHONY : src/arm.cpp.o
+
+src/arm.i: src/arm.cpp.i
+
+.PHONY : src/arm.i
+
+# target to preprocess a source file
+src/arm.cpp.i:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.i
+.PHONY : src/arm.cpp.i
+
+src/arm.s: src/arm.cpp.s
+
+.PHONY : src/arm.s
+
+# target to generate assembly for a file
+src/arm.cpp.s:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.s
+.PHONY : src/arm.cpp.s
+
 src/bicoag.o: src/bicoag.cpp.o
 
 .PHONY : src/bicoag.o
@@ -884,32 +911,59 @@ src/bicoag.cpp.s:
 	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.s
 .PHONY : src/bicoag.cpp.s
 
-src/mtml.o: src/mtml.cpp.o
+src/console.o: src/console.cpp.o
 
-.PHONY : src/mtml.o
+.PHONY : src/console.o
 
 # target to build an object file
-src/mtml.cpp.o:
-	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o
-.PHONY : src/mtml.cpp.o
+src/console.cpp.o:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o
+.PHONY : src/console.cpp.o
 
-src/mtml.i: src/mtml.cpp.i
+src/console.i: src/console.cpp.i
 
-.PHONY : src/mtml.i
+.PHONY : src/console.i
 
 # target to preprocess a source file
-src/mtml.cpp.i:
-	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.i
-.PHONY : src/mtml.cpp.i
+src/console.cpp.i:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.i
+.PHONY : src/console.cpp.i
 
-src/mtml.s: src/mtml.cpp.s
+src/console.s: src/console.cpp.s
 
-.PHONY : src/mtml.s
+.PHONY : src/console.s
 
 # target to generate assembly for a file
-src/mtml.cpp.s:
-	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.s
-.PHONY : src/mtml.cpp.s
+src/console.cpp.s:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.s
+.PHONY : src/console.cpp.s
+
+src/mtm.o: src/mtm.cpp.o
+
+.PHONY : src/mtm.o
+
+# target to build an object file
+src/mtm.cpp.o:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o
+.PHONY : src/mtm.cpp.o
+
+src/mtm.i: src/mtm.cpp.i
+
+.PHONY : src/mtm.i
+
+# target to preprocess a source file
+src/mtm.cpp.i:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.i
+.PHONY : src/mtm.cpp.i
+
+src/mtm.s: src/mtm.cpp.s
+
+.PHONY : src/mtm.s
+
+# target to generate assembly for a file
+src/mtm.cpp.s:
+	cd /home/nearlab/ws_tom/build && $(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.s
+.PHONY : src/mtm.cpp.s
 
 src/node_tom.o: src/node_tom.cpp.o
 
@@ -997,12 +1051,18 @@ help:
 	@echo "... test"
 	@echo "... actionlib_generate_messages_nodejs"
 	@echo "... actionlib_generate_messages_py"
+	@echo "... src/arm.o"
+	@echo "... src/arm.i"
+	@echo "... src/arm.s"
 	@echo "... src/bicoag.o"
 	@echo "... src/bicoag.i"
 	@echo "... src/bicoag.s"
-	@echo "... src/mtml.o"
-	@echo "... src/mtml.i"
-	@echo "... src/mtml.s"
+	@echo "... src/console.o"
+	@echo "... src/console.i"
+	@echo "... src/console.s"
+	@echo "... src/mtm.o"
+	@echo "... src/mtm.i"
+	@echo "... src/mtm.s"
 	@echo "... src/node_tom.o"
 	@echo "... src/node_tom.i"
 	@echo "... src/node_tom.s"

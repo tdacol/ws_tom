@@ -139,8 +139,10 @@ include_directories(
 
 set(SOURCE_CODE
     src/node_tom.cpp
+    src/console.cpp
+    src/arm.cpp
+    src/mtm.cpp
     src/bicoag.cpp
-    src/mtml.cpp
 )
 
 add_executable(node_tom ${SOURCE_CODE})

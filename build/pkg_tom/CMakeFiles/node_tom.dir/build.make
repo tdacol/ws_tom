@@ -81,9 +81,81 @@ pkg_tom/CMakeFiles/node_tom.dir/src/node_tom.cpp.o.provides: pkg_tom/CMakeFiles/
 pkg_tom/CMakeFiles/node_tom.dir/src/node_tom.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/node_tom.cpp.o
 
 
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o: pkg_tom/CMakeFiles/node_tom.dir/flags.make
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o: /home/nearlab/ws_tom/src/pkg_tom/src/console.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/node_tom.dir/src/console.cpp.o -c /home/nearlab/ws_tom/src/pkg_tom/src/console.cpp
+
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/node_tom.dir/src/console.cpp.i"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nearlab/ws_tom/src/pkg_tom/src/console.cpp > CMakeFiles/node_tom.dir/src/console.cpp.i
+
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/node_tom.dir/src/console.cpp.s"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nearlab/ws_tom/src/pkg_tom/src/console.cpp -o CMakeFiles/node_tom.dir/src/console.cpp.s
+
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.requires:
+
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.requires
+
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.provides: pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.requires
+	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.provides.build
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.provides
+
+pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o
+
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o: pkg_tom/CMakeFiles/node_tom.dir/flags.make
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o: /home/nearlab/ws_tom/src/pkg_tom/src/arm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/node_tom.dir/src/arm.cpp.o -c /home/nearlab/ws_tom/src/pkg_tom/src/arm.cpp
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/node_tom.dir/src/arm.cpp.i"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nearlab/ws_tom/src/pkg_tom/src/arm.cpp > CMakeFiles/node_tom.dir/src/arm.cpp.i
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/node_tom.dir/src/arm.cpp.s"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nearlab/ws_tom/src/pkg_tom/src/arm.cpp -o CMakeFiles/node_tom.dir/src/arm.cpp.s
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.requires:
+
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.requires
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.provides: pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.requires
+	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.provides.build
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.provides
+
+pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o
+
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o: pkg_tom/CMakeFiles/node_tom.dir/flags.make
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o: /home/nearlab/ws_tom/src/pkg_tom/src/mtm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/node_tom.dir/src/mtm.cpp.o -c /home/nearlab/ws_tom/src/pkg_tom/src/mtm.cpp
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/node_tom.dir/src/mtm.cpp.i"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nearlab/ws_tom/src/pkg_tom/src/mtm.cpp > CMakeFiles/node_tom.dir/src/mtm.cpp.i
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/node_tom.dir/src/mtm.cpp.s"
+	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nearlab/ws_tom/src/pkg_tom/src/mtm.cpp -o CMakeFiles/node_tom.dir/src/mtm.cpp.s
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.requires:
+
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.requires
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.provides: pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.requires
+	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.provides.build
+.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.provides
+
+pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o
+
+
 pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o: pkg_tom/CMakeFiles/node_tom.dir/flags.make
 pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o: /home/nearlab/ws_tom/src/pkg_tom/src/bicoag.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o"
 	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/node_tom.dir/src/bicoag.cpp.o -c /home/nearlab/ws_tom/src/pkg_tom/src/bicoag.cpp
 
 pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.i: cmake_force
@@ -105,42 +177,22 @@ pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o.provides: pkg_tom/CMakeFiles/no
 pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o
 
 
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o: pkg_tom/CMakeFiles/node_tom.dir/flags.make
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o: /home/nearlab/ws_tom/src/pkg_tom/src/mtml.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o"
-	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/node_tom.dir/src/mtml.cpp.o -c /home/nearlab/ws_tom/src/pkg_tom/src/mtml.cpp
-
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/node_tom.dir/src/mtml.cpp.i"
-	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/nearlab/ws_tom/src/pkg_tom/src/mtml.cpp > CMakeFiles/node_tom.dir/src/mtml.cpp.i
-
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/node_tom.dir/src/mtml.cpp.s"
-	cd /home/nearlab/ws_tom/build/pkg_tom && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/nearlab/ws_tom/src/pkg_tom/src/mtml.cpp -o CMakeFiles/node_tom.dir/src/mtml.cpp.s
-
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.requires:
-
-.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.requires
-
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.provides: pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.requires
-	$(MAKE) -f pkg_tom/CMakeFiles/node_tom.dir/build.make pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.provides.build
-.PHONY : pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.provides
-
-pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.provides.build: pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o
-
-
 # Object files for target node_tom
 node_tom_OBJECTS = \
 "CMakeFiles/node_tom.dir/src/node_tom.cpp.o" \
-"CMakeFiles/node_tom.dir/src/bicoag.cpp.o" \
-"CMakeFiles/node_tom.dir/src/mtml.cpp.o"
+"CMakeFiles/node_tom.dir/src/console.cpp.o" \
+"CMakeFiles/node_tom.dir/src/arm.cpp.o" \
+"CMakeFiles/node_tom.dir/src/mtm.cpp.o" \
+"CMakeFiles/node_tom.dir/src/bicoag.cpp.o"
 
 # External object files for target node_tom
 node_tom_EXTERNAL_OBJECTS =
 
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/node_tom.cpp.o
+/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o
+/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o
+/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o
-/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/build.make
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: /opt/ros/melodic/lib/libtf_conversions.so
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: /opt/ros/melodic/lib/libkdl_conversions.so
@@ -169,7 +221,7 @@ node_tom_EXTERNAL_OBJECTS =
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: /usr/lib/x86_64-linux-gnu/libpthread.so
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
 /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom: pkg_tom/CMakeFiles/node_tom.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/nearlab/ws_tom/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable /home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom"
 	cd /home/nearlab/ws_tom/build/pkg_tom && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/node_tom.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,8 +230,10 @@ pkg_tom/CMakeFiles/node_tom.dir/build: /home/nearlab/ws_tom/devel/lib/pkg_tom/no
 .PHONY : pkg_tom/CMakeFiles/node_tom.dir/build
 
 pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/node_tom.cpp.o.requires
+pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/console.cpp.o.requires
+pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/arm.cpp.o.requires
+pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/mtm.cpp.o.requires
 pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/bicoag.cpp.o.requires
-pkg_tom/CMakeFiles/node_tom.dir/requires: pkg_tom/CMakeFiles/node_tom.dir/src/mtml.cpp.o.requires
 
 .PHONY : pkg_tom/CMakeFiles/node_tom.dir/requires
 

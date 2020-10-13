@@ -6,6 +6,28 @@
 
 #IncludeRegexTransform: 
 
+/home/nearlab/ws_tom/src/pkg_tom/src/arm.cpp
+arm.h
+/home/nearlab/ws_tom/src/pkg_tom/src/arm.h
+
+/home/nearlab/ws_tom/src/pkg_tom/src/arm.h
+ros/ros.h
+/home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
+std_msgs/Bool.h
+-
+std_msgs/String.h
+-
+geometry_msgs/PoseStamped.h
+-
+geometry_msgs/Pose.h
+-
+tf_conversions/tf_kdl.h
+-
+iostream
+-
+kdl/frames.hpp
+-
+
 /home/nearlab/ws_tom/src/pkg_tom/src/bicoag.cpp
 bicoag.h
 /home/nearlab/ws_tom/src/pkg_tom/src/bicoag.h
@@ -18,26 +40,34 @@ ros/ros.h
 sensor_msgs/Joy.h
 /home/nearlab/ws_tom/src/pkg_tom/src/sensor_msgs/Joy.h
 
-/home/nearlab/ws_tom/src/pkg_tom/src/mtml.cpp
-mtml.h
-/home/nearlab/ws_tom/src/pkg_tom/src/mtml.h
+/home/nearlab/ws_tom/src/pkg_tom/src/console.cpp
+console.h
+/home/nearlab/ws_tom/src/pkg_tom/src/console.h
 
-/home/nearlab/ws_tom/src/pkg_tom/src/mtml.h
+/home/nearlab/ws_tom/src/pkg_tom/src/console.h
 ros/ros.h
 /home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
 std_msgs/Bool.h
 -
-geometry_msgs/PoseStamped.h
--
-geometry_msgs/Pose.h
--
-tf_conversions/tf_kdl.h
--
+
+/home/nearlab/ws_tom/src/pkg_tom/src/mtm.cpp
+mtm.h
+/home/nearlab/ws_tom/src/pkg_tom/src/mtm.h
+
+/home/nearlab/ws_tom/src/pkg_tom/src/mtm.h
+ros/ros.h
+/home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
 kdl/frames.hpp
 -
+iostream
+-
+arm.h
+/home/nearlab/ws_tom/src/pkg_tom/src/arm.h
 
 /home/nearlab/ws_tom/src/pkg_tom/src/node_tom.cpp
 iostream
+-
+thread
 -
 kdl/frames.hpp
 -
@@ -45,10 +75,12 @@ ros/ros.h
 /home/nearlab/ws_tom/src/pkg_tom/src/ros/ros.h
 sensor_msgs/Joy.h
 /home/nearlab/ws_tom/src/pkg_tom/src/sensor_msgs/Joy.h
+console.h
+/home/nearlab/ws_tom/src/pkg_tom/src/console.h
+mtm.h
+/home/nearlab/ws_tom/src/pkg_tom/src/mtm.h
 bicoag.h
 /home/nearlab/ws_tom/src/pkg_tom/src/bicoag.h
-mtml.h
-/home/nearlab/ws_tom/src/pkg_tom/src/mtml.h
 
 /opt/ros/melodic/include/geometry_msgs/Point.h
 string
@@ -1001,6 +1033,22 @@ ros/message_operations.h
 -
 
 /opt/ros/melodic/include/std_msgs/Header.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
+
+/opt/ros/melodic/include/std_msgs/String.h
 string
 -
 vector

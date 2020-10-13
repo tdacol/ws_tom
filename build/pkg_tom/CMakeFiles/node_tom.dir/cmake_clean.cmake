@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/node_tom.dir/src/node_tom.cpp.o"
+  "CMakeFiles/node_tom.dir/src/console.cpp.o"
+  "CMakeFiles/node_tom.dir/src/arm.cpp.o"
+  "CMakeFiles/node_tom.dir/src/mtm.cpp.o"
   "CMakeFiles/node_tom.dir/src/bicoag.cpp.o"
-  "CMakeFiles/node_tom.dir/src/mtml.cpp.o"
   "/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom.pdb"
   "/home/nearlab/ws_tom/devel/lib/pkg_tom/node_tom"
 )
