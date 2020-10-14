@@ -24,7 +24,7 @@ void arm::currentStateCallBack(const std_msgs::StringConstPtr& msg)
 void arm::setHomingPosition()
 {
     ros::Time begin_time=ros::Time::now();
-    if(arm::current_state.compare("READY")==0)
+    if(arm::current_state.compare("READY")!=0)
     {
         ROS_INFO(("homing " + arm_type + " aborted, arm is not ready!").c_str()); //?
         return;
